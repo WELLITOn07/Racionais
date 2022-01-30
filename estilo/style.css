@@ -38,13 +38,13 @@ header {
 }
 header h1 {
     padding-top: 20px;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: var(--font-racionais);
     font-weight: normal;
 }
 header p {
     padding-bottom: 10px;
-    font-size: 0.9vw;
+    font-size: 3vw;
     font-family: var(--font-padrao);
 }
 header a {
