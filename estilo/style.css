@@ -38,10 +38,9 @@ header {
 }
 header h1 {
     padding-top: 20px;
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-family: var(--font-racionais);
     font-weight: normal;
-    font-variant: small-caps;
 }
 header p {
     padding-bottom: 10px;
@@ -55,6 +54,10 @@ main {
     max-width: 70vw;
     margin: auto;
     padding: 10px 10px 0px 10px;
+}
+div.sons > audio {
+    margin: auto;
+    max-width: 200px;
 }
 article.normal {
     background-color: rgb(255, 255, 255);
