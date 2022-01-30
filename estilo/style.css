@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@font-face {
+    font-family: Cloister;
+    src: url('../fontes/CloisterBlack.ttf');
+}
+
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-racionais: Cloister, 'cursive';
+    --font-escrita:'Passion One', cursive;;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+abbr {
+    text-decoration: none;
+}
+html, body {
+    min-height: 100vh;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;
+}
+header h1 {
+    padding-top: 20px;
+    font-size: 2.5vw;
+    font-family: var(--font-racionais);
+    font-weight: normal;
+    font-variant: small-caps;
+}
+header p {
+    padding-bottom: 10px;
+    font-size: 0.9vw;
+    font-family: var(--font-padrao);
+}
+header a {
+    color: white;
+}
+main {
+    max-width: 70vw;
+    margin: auto;
+    padding: 10px 10px 0px 10px;
+}
+article.normal {
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -20px;
+    box-shadow: inset 0px 6px 6px rgba(128, 128, 128, 0.699);
+}
+article.normal > h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: var(--font-racionais);
+    font-variant: small-caps;
+}
+article.normal > p {
+    padding: 10px;
+    text-indent: 30px;
+    font-size: 1.5em;
+    font-family: var(--font-escrita);
+    font-weight: normal;
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+article.imagem {
+    background-color: rgba(194, 152, 152, 0.247);
+    padding: 20px;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.534);
+    border-radius: 20px 20px 0px 0px;
+}
+article.imagem > p {
+    background-color: rgba(0, 0, 0, 0.733);
+    display: inline-block;
+    color: white;
+    font-size: 1.8em;
+    font-family: var(--font-escrita);
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    text-indent: 30px;
+    border-radius: 10px;
+    line-height: 2em;
+}
+article#img1 {
+    background-image: url('../imagens/fnd-1.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+article#img2 {
+    background-image: url('../imagens/fnd-2.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+article#img3 {
+    background-image: url('../imagens/fnd-3.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;   
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: var(--font-padrao);
+}
+footer a {
+    color: white;
+    font-family: var(--font-padrao);
+}
